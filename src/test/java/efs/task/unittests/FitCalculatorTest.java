@@ -16,6 +16,7 @@ class FitCalculatorTest {
         boolean recommended = FitCalculator.isBMICorrect(weight, height);
 
         //then
+
         assertTrue(recommended);
     }
 }
